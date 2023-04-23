@@ -9,17 +9,16 @@ module.exports = {
             res.redirect("/");
         });
     },
-    // updateTask: (req, res) => {
-    //     const id = req.params.id;
-    //     TodoTask.findByIdAndUpdate(
-    //         id,
-    //         {
-    //             title: req.body.title,
-    //             content: req.body.content
-    //         },
-    //         err => {
-    //             if (err) return res.status(500).send(err);
-    //             res.redirect("/");
-    //         });
-    // }
+    updateTicket: (req, res) => {
+        const id = req.params.id;
+        TicketList.findByIdAndUpdate(
+            id,
+            {
+                status: "Closed"
+            },
+            err => {
+                if (err) return res.status(500).send(err);
+                res.redirect("/");
+            });
+    }
 }

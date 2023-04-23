@@ -1,4 +1,4 @@
-//This route will handle editing and deleting items, as well as rendering the edit page itself
+//This route will handle deleting tickets and updating the status of the ticket.
 
 const express = require('express')
 const router = express.Router()
@@ -6,6 +6,6 @@ const editController = require('../controllers/edit')
 
 
 router.get('/remove/:id', editController.deleteTicket)
-// router.post('/:id', editController.updateTask)
+router.get('/:id', editController.updateTicket)
 
 module.exports = router
