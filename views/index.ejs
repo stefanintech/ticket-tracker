@@ -42,19 +42,18 @@
         <div class="col-lg-12">
             <div id="issuesList">
                 <% ticketList.forEach(tickets => { %>
-                    <div class = 'well'>
+                    <div class = "well">
                         <h6>Issue ID: <%=tickets._id%></h6>
-                        <h6>Subject: <%=tickets.subject%></h6>
-                        <h6>Description: <%=tickets.description%></h6>
-                        <h6>Severity: <%=tickets.severity%></h6>
-                        <h6>Assigned To: <%=tickets.assignedTo%></h6>
-                        <h6>Status: <%=tickets.status%></h6>
-                        <h6>Date: <%=tickets.date%></h6>
+                        <p><span class="label <%=tickets.status == 'Closed' ? 'label-success' : 'label-info'%>"><%=tickets.status%></span></p>
+                        <h3><%=tickets.subject%></h3>
+                        <p><%=tickets.description%></p>
+                        <p><span class="glyphicon glyphicon-time"></span><%=tickets.severity%><span class="glyphicon glyphicon-user"></span><%=tickets.assignedTo%></p>
+                        <a href="/edit/<%=tickets._id%>" class="btn btn-warning">Close</a>
+                        <a href="/edit/remove/<%=tickets._id%>" class="btn btn-danger">Delete</a>
                     </div>
                 <% }) %>
-            </div>
+
         </div>
     </section>
 
-    
 </body>
