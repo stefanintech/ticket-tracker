@@ -44,6 +44,12 @@
                 <% ticketList.forEach(tickets => { %>
                     <div class = 'well'>
                         <h6>Issue ID: <%=tickets._id%></h6>
+                        <h6>Subject: <%=tickets.subject%></h6>
+                        <h6>Description: <%=tickets.description%></h6>
+                        <h6>Severity: <%=tickets.severity%></h6>
+                        <h6>Assigned To: <%=tickets.assignedTo%></h6>
+                        <h6>Status: <%=tickets.status%></h6>
+                        <h6>Date: <%=tickets.date%></h6>
                     </div>
                 <% }) %>
             </div>
