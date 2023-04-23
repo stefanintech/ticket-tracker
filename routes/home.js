@@ -1,5 +1,5 @@
 //Handles initial GET request for the homepage
-//Handles POST method  request for adding a new task
+//Handles POST method  request for creating new ticket
 
 const express = require('express')
 const router = express.Router()
