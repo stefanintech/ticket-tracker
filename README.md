@@ -4,13 +4,15 @@
 Application to empower your team to streamline the workflow and squash bugs!
 
 ## Lessons Learned 💭
-Implementing a form and connecting the back-end to MongoDB. Utilizing a templating language like EJS to render the views.
+Implementing MVC to create a full-stack web application.
 
 ## Optimization ✅
-- [ ] Adding Authentication: Sign Up + Log In
-- [ ] Sorting Method
-- [ ] Flag a ticket if it has been open for a certain amount of days
-- [ ] Display how long a ticket has been opened for
+- [ ] Add Authentication & Authorization (Roles / Permission) 👽
+- [ ] Ticket Status & Prioritization 🖥️
+- [ ] Comment on Tickets 💬
+- [ ] Search & Filter function 🔍
+- [ ] Light / Dark Mode 🌞 🌙
+- [ ] Make it look fuego 🔥
 
 ## Tech Used 💻
 
