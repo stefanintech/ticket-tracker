@@ -1,7 +1,7 @@
 # <a target="_blank" href="#">Bug Buster</a> 🐛
 <a href="#" target="_blank"><img src="#"></a>
 
-Application to empower your team to streamline the workflow and squash bugs!
+ Bug Buster is a dynamic bug tracking tool that empowers developers and teams to quickly identify, prioritize, and resolve software issues. Its user-friendly interface, customizable theming, and extensive feature set make Bug Buster the go-to solution for maintaining code quality and optimizing project workflows.
 
 ## Lessons Learned 💭
 Implementing MVC to create a full-stack web application.
