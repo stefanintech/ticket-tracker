@@ -26,3 +26,5 @@ router.get('/logout', (req, res, next) => {
 })
 
 module.exports = router
+
+// Change redirect for line 15
