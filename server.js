@@ -8,7 +8,7 @@ const logger = require("morgan");
 const connectDB = require("./config/database");
 const homeRoutes = require("./routes/home")
 const editRoutes = require("./routes/edit")
-const authRoutes = require("./routes/auth")
+// const authRoutes = require("./routes/auth")
 
 //Use .env file in config folder
 require('dotenv').config({path: './config/.env'})
